@@ -80,22 +80,6 @@ Includes:
 - Security tests
 - API endpoint tests
 
-## 📁 Project Structure (Simplified)
-
-```
-src/
-  └── main/
-      ├── java/com/management/customer/
-      │   ├── controller/         # REST controllers
-      │   ├── service/            # Business logic
-      │   ├── repository/         # JPA repositories
-      │   ├── model/              # Entity models
-      │   └── security/           # JWT security config
-      └── resources/
-          ├── application.properties
-          └── ...
-```
-
 ## 📌 Notes
 
 - Passwords are stored securely using BCrypt hashing.
